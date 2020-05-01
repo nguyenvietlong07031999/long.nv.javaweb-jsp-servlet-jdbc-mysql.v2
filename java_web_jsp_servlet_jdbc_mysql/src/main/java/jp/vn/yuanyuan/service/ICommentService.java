@@ -1,0 +1,11 @@
+package jp.vn.yuanyuan.service;
+
+import java.util.List;
+
+import jp.vn.yuanyuan.model.CommentModel;
+
+public interface ICommentService {
+	
+	List<CommentModel> finByNewId(Long newId);
+	void save(CommentModel commentModel);
+}

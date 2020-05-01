@@ -1,0 +1,98 @@
+
+Mar 10, 2020 21:20:36.91 NEW SESSION
+Mar 10, 2020 21:20:36.91 [6688:11040:0310/212036.907:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Mar 10, 2020 21:54:38.97 [6688:11040:0310/215438.971:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -21
+
+Mar 11, 2020 20:51:39.15 NEW SESSION
+Mar 11, 2020 20:51:39.15 [7244:13700:0311/205139.140:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Mar 11, 2020 20:51:49.87 [7244:13700:0311/205149.878:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Mar 11, 2020 20:52:42.71 [7244:13700:0311/205242.718:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -7
+Mar 11, 2020 20:53:44.33 [7244:13700:0311/205344.338:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Mar 11, 2020 21:08:06.31 [7244:13700:0311/210806.317:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Mar 11, 2020 21:08:10.61 [7244:13700:0311/210810.612:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Mar 11, 2020 22:01:04.03 [7244:6028:0311/220104.038:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Mar 11, 2020 22:01:06.08 [7244:13700:0311/220104.045:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Mar 11, 2020 23:21:12.05 [7244:13700:0311/232112.056:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Mar 12, 2020 24:02:39.25 [7244:13700:0312/000239.249:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Mar 12, 2020 24:08:17.23 [7244:13700:0312/000817.236:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Mar 12, 2020 24:08:38.98 [7244:13700:0312/000838.981:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Mar 12, 2020 24:08:50.49 [7244:13700:0312/000850.499:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Mar 12, 2020 24:09:08.50 [7244:13700:0312/000908.508:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Mar 12, 2020 24:10:06.56 [7244:13700:0312/001006.560:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Mar 12, 2020 24:12:34.52 [7244:13700:0312/001234.529:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Mar 12, 2020 24:12:58.49 [7244:13700:0312/001258.497:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Mar 12, 2020 24:13:54.52 [7244:13700:0312/001354.523:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Mar 12, 2020 24:14:29.44 [7244:6028:0312/001429.440:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Mar 12, 2020 24:14:56.96 [7244:6028:0312/001456.964:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Mar 12, 2020 24:15:38.90 [7244:6028:0312/001538.900:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Mar 12, 2020 24:15:48.80 [7244:13700:0312/001548.805:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Mar 12, 2020 24:17:25.90 [7244:6028:0312/001725.907:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Mar 12, 2020 24:19:24.05 [7244:13700:0312/001924.054:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Mar 12, 2020 24:21:00.09 [7244:6028:0312/002100.094:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Mar 12, 2020 24:26:45.77 [7244:2916:0312/002645.770:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Mar 12, 2020 24:26:57.04 [7244:13700:0312/002657.047:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Mar 12, 2020 24:27:30.77 [7244:2916:0312/002730.774:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Mar 12, 2020 24:28:38.78 [7244:2916:0312/002838.781:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Mar 12, 2020 24:28:49.55 [7244:6028:0312/002849.551:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Mar 12, 2020 24:30:20.78 [7244:2916:0312/003020.789:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Mar 12, 2020 24:34:35.79 [7244:2916:0312/003435.797:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Mar 12, 2020 24:36:57.05 [7244:13700:0312/003657.050:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Mar 12, 2020 24:38:49.55 [7244:6028:0312/003849.558:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Mar 12, 2020 24:46:57.05 [7244:13700:0312/004657.052:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Mar 12, 2020 24:48:49.56 [7244:6028:0312/004849.562:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Mar 12, 2020 24:56:57.05 [7244:13700:0312/005657.056:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Mar 12, 2020 24:58:49.56 [7244:6028:0312/005849.567:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Mar 12, 2020 01:06:57.06 [7244:13700:0312/010657.059:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Mar 12, 2020 01:08:49.57 [7244:6028:0312/010849.573:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Mar 12, 2020 01:10:33.85 [7244:2916:0312/011033.855:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Mar 12, 2020 01:11:48.85 [7244:2916:0312/011148.858:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+Mar 12, 2020 01:16:57.06 [7244:13700:0312/011657.063:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+
+Mar 17, 2020 24:39:47.50 NEW SESSION
+Mar 17, 2020 24:39:47.50 [9632:12312:0317/003947.475:ERROR:socket_stream.cc(218)] Closing stream with result -2
+
+Apr 11, 2020 01:28:19.80 NEW SESSION
+Apr 11, 2020 01:28:19.80 [16212:14884:0411/012819.795:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Apr 11, 2020 01:28:30.46 [16212:14884:0411/012830.468:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Apr 11, 2020 01:28:48.97 [16212:14884:0411/012848.977:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Apr 11, 2020 01:29:00.80 [16212:14884:0411/012900.806:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+
+Apr 11, 2020 09:18:20.07 NEW SESSION
+Apr 11, 2020 09:18:20.07 [0411/091820.072:ERROR:settings.cc(320)] Settings magic is not 1129342067
+Apr 11, 2020 09:18:21.21 [2876:2896:0411/091821.209:ERROR:image_generic.cc(71)] Unable to decode PNG for 1.
+Apr 11, 2020 09:18:35.59 [2876:11196:0411/091835.596:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Apr 11, 2020 09:19:04.75 [2876:11196:0411/091904.757:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Apr 11, 2020 09:19:48.26 [2876:11196:0411/091948.266:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Apr 11, 2020 09:21:27.70 [2876:11196:0411/092127.705:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Apr 11, 2020 09:21:59.89 [2876:2896:0411/092159.896:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Apr 11, 2020 09:22:29.32 [2876:2896:0411/092229.329:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Apr 11, 2020 09:23:24.89 [2876:2896:0411/092324.890:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Apr 11, 2020 09:24:50.87 [2876:11196:0411/092450.876:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Apr 11, 2020 09:24:56.91 [2876:2896:0411/092456.909:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Apr 11, 2020 09:28:45.89 [2876:2896:0411/092845.893:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Apr 11, 2020 09:30:13.56 [2876:11196:0411/093013.560:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Apr 11, 2020 09:36:15.68 [2876:2896:0411/093615.681:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Apr 11, 2020 09:40:13.56 [2876:11196:0411/094013.563:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Apr 11, 2020 09:46:15.68 [2876:2896:0411/094615.684:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Apr 11, 2020 09:50:13.56 [2876:11196:0411/095013.567:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Apr 11, 2020 09:56:15.69 [2876:2896:0411/095615.690:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Apr 11, 2020 10:00:13.57 [2876:11196:0411/100013.570:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Apr 11, 2020 10:06:15.69 [2876:2896:0411/100615.695:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+Apr 11, 2020 10:10:13.57 [2876:11196:0411/101013.575:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+
+Apr 25, 2020 01:10:20.65 NEW SESSION
+Apr 25, 2020 01:10:20.65 [12908:4012:0425/011020.655:ERROR:browser_switcher_service.cc(238)] XXX Init()
+
+Apr 25, 2020 16:39:44.42 NEW SESSION
+Apr 25, 2020 16:39:44.42 [12328:4968:0425/163944.428:ERROR:browser_switcher_service.cc(238)] XXX Init()
+
+Apr 29, 2020 22:54:40.14 NEW SESSION
+Apr 29, 2020 22:54:40.14 [17384:10064:0429/225440.146:ERROR:browser_switcher_service.cc(238)] XXX Init()
+Apr 29, 2020 23:02:04.78 [11836:13088:0429/230204.789:ERROR:browser_switcher_service.cc(238)] XXX Init()
+Apr 29, 2020 23:47:44.18 [11836:15948:0429/234744.184:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Apr 30, 2020 24:01:30.96 [11836:15948:0430/000130.961:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Apr 30, 2020 24:09:46.64 [11836:15948:0430/000946.646:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Apr 30, 2020 01:13:07.08 [7144:16184:0430/011307.081:ERROR:browser_switcher_service.cc(238)] XXX Init()
+Apr 30, 2020 01:15:18.04 [10276:17488:0430/011518.043:ERROR:browser_switcher_service.cc(238)] XXX Init()
+Apr 30, 2020 01:19:01.41 [10276:13356:0430/011901.417:ERROR:socket_stream.cc(218)] Closing stream with result -2
+Apr 30, 2020 01:36:16.46 [4648:17984:0430/013616.466:ERROR:browser_switcher_service.cc(238)] XXX Init()

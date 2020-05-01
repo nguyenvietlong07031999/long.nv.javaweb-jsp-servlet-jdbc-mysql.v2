@@ -1,0 +1,3 @@
+127.0.0.1 - - [22/Feb/2020:00:06:34 +0700] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [22/Feb/2020:00:06:35 +0700] "GET /java_web_jsp_servlet_jdbc_mysql/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [22/Feb/2020:00:06:37 +0700] "GET /java_web_jsp_servlet_jdbc_mysql/trang-chu HTTP/1.1" 200 146

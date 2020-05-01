@@ -1,0 +1,115 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@include file="/common/taglib.jsp"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); 
+}
+</style>
+<title>Item</title>
+</head>
+<body>
+	<!-- Page Content -->
+ 
+<div class="layout" style="background-color: #696969;">
+
+		<div class="row">
+
+			<div class="col-lg-4">
+				<h1 class="my-4 text-center">${model.title}</h1>
+				<div class="col-sm-1"></div>
+				<div class="col-sm-12">
+				<div class="list-group">
+				<div class="zoom"></div>
+						<br>
+					<img class="card-img-top img-fluid"
+						src="${model.thumbnail}" alt="">
+						<br>
+					<img class="card-img-top img-fluid"
+						src="${model.thumbnail}" alt="">
+				</div>
+				</div>
+			</div>
+			<!-- /.col-lg-3 -->
+
+			<div class="col-lg-8">
+
+				<div class="card mt-4">
+					<img class="card-img-top img-fluid"
+						src="${model.thumbnail}" alt="">
+					<div class="card-body">
+						<h3 class="card-title">${model.title}</h3>
+						<h4>$24.99</h4>
+						<span class="text-warning">&#9733; &#9733; &#9733; &#9733;
+							&#9734;</span> 4.0 stars
+						<p class="card-text">${model.content}</p>
+						
+					</div>
+				</div>
+				<!-- /.card -->
+
+				<div class="card card-outline-secondary my-4">
+					<div class="card-header">Product Reviews</div>
+					<div class="card-body">
+					<c:forEach var="item" items="${commentModel.listResult}" varStatus="user">
+						<p>${item.content}</p>
+						<small class="text-muted">Posted by ${userModel.listResult[user.index].userName}</small>
+						<hr>
+					</c:forEach>
+						
+						
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							Omnis et enim aperiam inventore, similique necessitatibus neque
+							non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum.
+							Sequi mollitia, necessitatibus quae sint natus.</p>
+						<small class="text-muted">Posted by Anonymous on 3/1/17</small>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							Omnis et enim aperiam inventore, similique necessitatibus neque
+							non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum.
+							Sequi mollitia, necessitatibus quae sint natus.</p>
+						<small class="text-muted">Posted by Anonymous on 3/1/17</small>
+						<hr>
+						<div class="form-group">
+							<label class="col-sm-3 control-label no-padding-right">Write Comment</label>
+							<div class="col-sm-9" >
+								<input type="text" id="comment" name="comment"/>
+								<button type="submit" class="btn btn-primary" >Enter</button>
+							</div>
+						</div>
+						
+						<button type="button" class="btn btn-success" onclick="back_previous_page()">Leave a Review</button>
+					</div>
+				</div>
+				<!-- /.card -->
+
+			</div>
+			<!-- /.col-lg-9 -->
+
+		  </div> 
+
+	</div>
+	<!-- /.container -->
+	
+	<script>
+		function back_previous_page(){
+			history.back();
+		}
+	</script>
+
+</body>
+</html>

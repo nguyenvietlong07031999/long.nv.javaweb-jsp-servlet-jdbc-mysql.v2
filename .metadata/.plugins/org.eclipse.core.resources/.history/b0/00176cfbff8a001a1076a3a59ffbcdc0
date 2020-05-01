@@ -1,0 +1,89 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@include file="/common/taglib.jsp"%>
+<!-- Navigation -->
+  <nav class="navbar navbar-expand-lg nav-light bg-light fixed-top font-weight-bolder">
+    <div class="container" >
+    <a class="navbar-brand" href="#">
+    <img  src="./images/icon/icon-3418201_1920.png" style="width:70px;height:auto">
+    </a>
+     <a class="nav-link" href="/java_web_jsp_servlet_jdbc_mysql/trang-chu">HOME
+         <span class="sr-only">(current)</span>
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>   
+      
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+        <!--  
+          <c:if test="${not empty USERMODEL}">
+          <li class="nav-item">
+          <img src="./images/avatar/male_1.jpg" alt="avatar image" class="avatar" style="vertical-align:middle;
+	width: 30px;
+	height: 30px;
+	boder-radius: 50%">
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href='#'>${USERMODEL.userName }</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href='<c:url value="/thoat?action=logout"/>'>LOGOUT</a>
+          </li>
+          </c:if>
+          -->
+          <c:if test="${not empty USERMODEL}">
+          	<div class="light-blue dropdown-modal">
+							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
+								<img class="nav-user-photo" src="./images/avatar/male_1.jpg" alt="avatar image" class="avatar" style="vertical-align:middle;
+	width: 30px;
+	height: 30px;
+	boder-radius: 50%" />
+								<span class="user-info">
+									<small>Welcome,</small>
+									${USERMODEL.userName }
+								</span>
+
+								<i class="ace-icon fa fa-caret-down"></i>
+							</a>
+
+							<ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+								<li>
+									<a href="#">
+										<i class="ace-icon fa fa-cog"></i>
+										Settings
+									</a>
+								</li>
+
+								<li>
+									<a href="profile.html">
+										<i class="ace-icon fa fa-user"></i>
+										Profile
+									</a>
+								</li>
+
+								<li class="divider"></li>
+
+								<li>
+									<a href='<c:url value="/thoat?action=logout"/>'>
+										<i class="ace-icon fa fa-power-off"></i>
+										Logout
+									</a>
+								</li>
+							</ul>
+						</div>
+          </c:if>
+          <c:if test="${empty USERMODEL}">
+          <li class="nav-item">
+            <a class="nav-link" href='<c:url value="/dang-nhap?action=login"/>'>LOGIN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href='<c:url value="/dang-ki?action=register"/>'>REGISTER</a>
+          </li>
+          </c:if>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+      

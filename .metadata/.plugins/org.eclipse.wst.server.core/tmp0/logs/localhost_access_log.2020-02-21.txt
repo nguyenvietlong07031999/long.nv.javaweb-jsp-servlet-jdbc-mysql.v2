@@ -1,0 +1,10 @@
+127.0.0.1 - - [21/Feb/2020:23:08:57 +0700] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [21/Feb/2020:23:08:59 +0700] "GET /java_web_jsp_servlet_jdbc_mysql/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/Feb/2020:23:08:59 +0700] "GET /java_web_jsp_servlet_jdbc_mysql/trang-chu;jsessionid=2A0744892224DE6138AFC5CF167A0389 HTTP/1.1" 404 767
+127.0.0.1 - - [21/Feb/2020:23:10:41 +0700] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [21/Feb/2020:23:10:41 +0700] "GET /java_web_jsp_servlet_jdbc_mysql/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/Feb/2020:23:10:43 +0700] "GET /java_web_jsp_servlet_jdbc_mysql/trang-chu HTTP/1.1" 200 140
+127.0.0.1 - - [21/Feb/2020:23:19:04 +0700] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [21/Feb/2020:23:19:04 +0700] "GET /java_web_jsp_servlet_jdbc_mysql/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/Feb/2020:23:19:04 +0700] "GET /java_web_jsp_servlet_jdbc_mysql/trang-chu HTTP/1.1" 200 140
+0:0:0:0:0:0:0:1 - - [21/Feb/2020:23:19:22 +0700] "GET /java_web_jsp_servlet_jdbc_mysql/admin-home HTTP/1.1" 200 148

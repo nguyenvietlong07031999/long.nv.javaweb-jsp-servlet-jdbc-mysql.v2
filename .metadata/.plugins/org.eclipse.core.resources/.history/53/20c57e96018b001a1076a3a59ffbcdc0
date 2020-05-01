@@ -1,0 +1,75 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@include file="/common/taglib.jsp" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Trang chủ</title>
+</head>
+<body>
+<div class="main-content">
+    <div class="main-content-inner">
+        <div class="breadcrumbs ace-save-state" id="breadcrumbs">
+            <ul class="breadcrumb">
+                <li>
+                    <i class="ace-icon fa fa-home home-icon"></i>
+                    <a href="/java_web_jsp_servlet_jdbc_mysql/trang-chu">Trang chủ</a>
+                </li>
+            </ul><!-- /.breadcrumb -->
+        </div>
+        <div class="page-content">
+						
+
+						<div class="page-header">
+							<h1>
+								Chart
+								<small>
+									<i class="ace-icon fa fa-angle-double-right"></i>
+									Cars &amp; Comments
+								</small>
+							</h1>
+						</div><!-- /.page-header -->
+
+						<div class="row">
+							<div class="col-xs-12">
+								<!-- PAGE CONTENT BEGINS -->
+
+								<div class="row">
+									<div class="vspace-12-sm"></div>
+									<div class="col-sm-3"></div>
+									<div class="col-sm-6">
+										<div class="widget-box">
+											<div class="widget-header widget-header-flat widget-header-small">
+												<h5 class="widget-title">
+													<i class="ace-icon fa fa-signal"></i>
+													Cars of Sumary
+												</h5>
+
+											</div>
+
+											<div class="widget-body">
+												<div class="widget-main">
+													<div id="piechart-placeholder"></div>
+
+													<div class="hr hr8 hr-double"></div>
+
+												</div><!-- /.widget-main -->
+												
+											</div><!-- /.widget-body -->
+										</div><!-- /.widget-box -->
+									</div><!-- /.col -->
+									<div class="col-sm-3"></div>
+								</div><!-- /.row -->
+								<div class="hr hr32 hr-dotted"></div>
+								<div class="hr hr32 hr-dotted"></div>
+								<!-- PAGE CONTENT ENDS -->
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+					</div><!-- /.page-content -->
+				</div>
+			</div><!-- /.main-content -->
+    </div>
+</div><!-- /.main-content -->
+</body>
+</html>

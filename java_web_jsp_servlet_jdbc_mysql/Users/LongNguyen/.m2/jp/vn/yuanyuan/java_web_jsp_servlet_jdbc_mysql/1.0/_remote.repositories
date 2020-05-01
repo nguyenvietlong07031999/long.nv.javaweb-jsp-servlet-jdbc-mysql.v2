@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Feb 21 23:04:21 ICT 2020
+java_web_jsp_servlet_jdbc_mysql-1.0.pom>=
+java_web_jsp_servlet_jdbc_mysql-1.0.war>=

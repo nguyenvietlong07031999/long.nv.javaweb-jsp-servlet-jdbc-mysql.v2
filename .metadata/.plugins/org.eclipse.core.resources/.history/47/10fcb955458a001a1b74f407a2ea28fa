@@ -1,0 +1,20 @@
+package jp.vn.yuanyuan.dao.impl;
+
+import java.util.List;
+
+import jp.vn.yuanyuan.dao.ICommentDAO;
+import jp.vn.yuanyuan.mapper.CommentMapper;
+import jp.vn.yuanyuan.model.CommentModel;
+
+public class CommentDAO extends AbstractDAO<CommentModel> implements ICommentDAO{
+
+
+	@Override
+	public List<CommentModel> findCommentByNewId(long newId) {
+		StringBuilder sql = new StringBuilder("select comment.id,comment.content,comment.user_id,comment.new_id,user.username from comment");
+		sql.append(" inner join user ");
+		sql.append("on (comment.user_id=user.id) ");
+		sql.append("where new_id=?");
+		return query(sql.toString(),new CommentMapper(),newId);
+	}
+}

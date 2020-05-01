@@ -1,0 +1,79 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@include file="/common/taglib.jsp"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Group</title>
+</head>
+<body>
+	<!-- Page Content -->
+	<div class="main-container" style="background-color: #696969">
+		<!-- Jumbotron Header -->
+		<header class="jumbotron my-4">
+		<c:if test ="${model.getCategoryCode().equals("mini")}">
+			<h1 class="display-3">A Warm Welcome!</h1>
+			<p class="lead">Lorem ipsum dolor sit amet, consectetur
+				adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non
+				incidunt odit vero aliquid similique quaerat nam nobis illo
+				aspernatur vitae fugiat numquam repellat.</p>
+			<a href="#" class="btn btn-primary btn-lg">Call to action!</a>
+			</c:if>
+		</header>
+		<div class="row text-center">
+			<c:forEach var="item" items="${model.listResult}">
+
+				<div class="col-lg-3 col-md-6 mb-4">
+					<div class="card h-100">
+						<img class="card-img-top" src="${item.thumbnail}"
+							style="width: 312.75px; height: 220.14px" alt="">
+						<div class="card-body" style="background-color: #DDDDDD">
+							<h4 class="card-title">${item.title}</h4>
+							<p class="card-text">${item.shortDescription}</p>
+						</div>
+						<div class="card-footer text-center"
+							style="background-color: #e3f2fd">
+							<a href='<c:url value="/item?id=${item.id}"/>'
+								class="btn btn-primary">See More!</a>
+						</div>
+					</div>
+				</div>
+			</c:forEach>
+		</div>
+		<!--  
+		<div class="col-xs-12" >
+		<ul class="pagination justify-content-center" id="pagination"></ul>
+		<input type="hidden" value="" id="page" name="page" />
+		<input type="hidden" value="" id="maxPageItem" name="maxPageItem" />
+		<input type="hidden" value="" id="sortName" name="sortName" />
+		<input type="hidden" value="" id="sortBy" name="sortBy" />
+		</div>	
+		-->
+	</div>
+	<!--  
+	<script>
+			var totalPages = ${model.totalPage};
+			var currentPage = ${model.page};
+			var limit = 8;
+			$(function () {
+				window.pagObj = $('#pagination').twbsPagination({
+					totalPages: totalPages,
+					visiblePages: 10,
+					startPage: currentPage,
+					onPageClick: function (event, page) {
+						if (currentPage != page) {
+							$('#maxPageItem').val(limit);
+							$('#page').val(page);
+							$('#sortName').val('title');
+							$('#sortBy').val('desc');
+							$('#formSubmit').submit();
+						}
+					}
+				});
+			});
+		</script>
+		
+		-->
+</body>
+</html>

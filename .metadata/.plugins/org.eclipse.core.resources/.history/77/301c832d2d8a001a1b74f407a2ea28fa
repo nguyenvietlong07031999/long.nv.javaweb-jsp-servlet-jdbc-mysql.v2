@@ -1,0 +1,17 @@
+package jp.vn.yuanyuan.mapper;
+
+import java.sql.ResultSet;
+
+import jp.vn.yuanyuan.model.CommentModel;
+
+public class CommentMapper implements RowMapper<CommentModel>{
+
+	@Override
+	public CommentModel mapRow(ResultSet resultSet) {
+	
+		CommentModel commentModel = new CommentModel();
+		
+		return commentModel;		
+	}
+
+}

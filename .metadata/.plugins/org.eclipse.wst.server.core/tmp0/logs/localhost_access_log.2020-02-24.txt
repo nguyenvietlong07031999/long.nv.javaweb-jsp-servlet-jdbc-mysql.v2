@@ -1,0 +1,11 @@
+127.0.0.1 - - [24/Feb/2020:15:34:36 +0700] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:15:34:37 +0700] "GET /java_web_jsp_servlet_jdbc_mysql/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:15:34:37 +0700] "GET /java_web_jsp_servlet_jdbc_mysql/trang-chu;jsessionid=3FAE1141A46A96F37FF85D2D6B2C3EE4 HTTP/1.1" 200 8627
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:15:34:37 +0700] "GET /java_web_jsp_servlet_jdbc_mysql/template/web/css/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:15:34:37 +0700] "GET /java_web_jsp_servlet_jdbc_mysql/template/web/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 155758
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:15:34:37 +0700] "GET /java_web_jsp_servlet_jdbc_mysql/template/web/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 78635
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:15:34:37 +0700] "GET /java_web_jsp_servlet_jdbc_mysql/template/web/jquery/jquery.min.js HTTP/1.1" 200 88145
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:15:34:38 +0700] "GET /favicon.ico HTTP/1.1" 404 720
+127.0.0.1 - - [24/Feb/2020:16:07:56 +0700] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:16:07:57 +0700] "GET /java_web_jsp_servlet_jdbc_mysql/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:16:10:27 +0700] "GET /java_web_jsp_servlet_jdbc_mysql/trang-chu HTTP/1.1" 200 8627

@@ -1,0 +1,5 @@
+package jp.vn.yuanyuan.service;
+
+public interface ICommentService {
+
+}

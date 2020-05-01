@@ -1,0 +1,37 @@
+INDEX VERSION 1.131
+C:\Users\LongNguyen\OneDrive - Hanoi University of Science and Technology\JAVA_WEB_JSP_SERVLET_JDBC_MYSQL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4224922339.index
+\java_web_jsp_servlet_jdbc_mysql\src\main\java
+C:\Users\LongNguyen\OneDrive - Hanoi University of Science and Technology\JAVA_WEB_JSP_SERVLET_JDBC_MYSQL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\977052981.index
+\java_web_jsp_servlet_jdbc_mysql\src\main\java
+E:\JAVA_WEB_JSP_SERVLET_JDBC_MYSQL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3097069517.index
+\java_web_jsp_servlet_jdbc_mysql\src\main\java
+E:\JAVA_WEB_JSP_SERVLET_JDBC_MYSQL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2714385195.index
+\java_web_jsp_servlet_jdbc_mysql\src\main\java
+C:\Users\LongNguyen\OneDrive - Hanoi University of Science and Technology\JAVA_WEB_JSP_SERVLET_JDBC_MYSQL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2714385195.index
+\java_web_jsp_servlet_jdbc_mysql\src\main\java
+E:\JAVA_WEB_JSP_SERVLET_JDBC_MYSQL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4268938771.index
+\java_web_jsp_servlet_jdbc_mysql\src\main\java
+E:\JAVA_WEB_JSP_SERVLET_JDBC_MYSQL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3886987536.index
+\java_web_jsp_servlet_jdbc_mysql\src\main\java
+C:\Users\LongNguyen\OneDrive - Hanoi University of Science and Technology\JAVA_WEB_JSP_SERVLET_JDBC_MYSQL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3886987536.index
+\java_web_jsp_servlet_jdbc_mysql\src\main\java
+C:\Users\LongNguyen\OneDrive - Hanoi University of Science and Technology\JAVA_WEB_JSP_SERVLET_JDBC_MYSQL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2175968315.index
+\java_web_jsp_servlet_jdbc_mysql\src\main\java
+E:\JAVA_WEB_JSP_SERVLET_JDBC_MYSQL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4224922339.index
+\java_web_jsp_servlet_jdbc_mysql\src\main\java
+E:\JAVA_WEB_JSP_SERVLET_JDBC_MYSQL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\936475653.index
+\java_web_jsp_servlet_jdbc_mysql\src\main\java
+C:\Users\LongNguyen\OneDrive - Hanoi University of Science and Technology\JAVA_WEB_JSP_SERVLET_JDBC_MYSQL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\936475653.index
+\java_web_jsp_servlet_jdbc_mysql\src\main\java
+E:\JAVA_WEB_JSP_SERVLET_JDBC_MYSQL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2245918897.index
+\java_web_jsp_servlet_jdbc_mysql\src\main\java
+E:\JAVA_WEB_JSP_SERVLET_JDBC_MYSQL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2175968315.index
+\java_web_jsp_servlet_jdbc_mysql\src\main\java
+E:\JAVA_WEB_JSP_SERVLET_JDBC_MYSQL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\977052981.index
+\java_web_jsp_servlet_jdbc_mysql\src\main\java
+C:\Users\LongNguyen\OneDrive - Hanoi University of Science and Technology\JAVA_WEB_JSP_SERVLET_JDBC_MYSQL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3097069517.index
+\java_web_jsp_servlet_jdbc_mysql\src\main\java
+C:\Users\LongNguyen\OneDrive - Hanoi University of Science and Technology\JAVA_WEB_JSP_SERVLET_JDBC_MYSQL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2245918897.index
+\java_web_jsp_servlet_jdbc_mysql\src\main\java
+C:\Users\LongNguyen\OneDrive - Hanoi University of Science and Technology\JAVA_WEB_JSP_SERVLET_JDBC_MYSQL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4268938771.index
+\java_web_jsp_servlet_jdbc_mysql\src\main\java

@@ -1,0 +1,8 @@
+package jp.vn.yuanyuan.dao;
+
+import jp.vn.yuanyuan.model.CommentModel;
+
+public interface ICommentDAO extends GenericDAO<CommentModel>{
+
+	
+}

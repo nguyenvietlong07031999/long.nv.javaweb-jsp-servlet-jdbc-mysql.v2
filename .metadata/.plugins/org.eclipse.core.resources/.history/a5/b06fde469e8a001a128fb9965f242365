@@ -1,0 +1,22 @@
+package jp.vn.yuanyuan.service.impl;
+
+import java.util.List;
+
+import javax.inject.Inject;
+
+import jp.vn.yuanyuan.dao.ICommentDAO;
+import jp.vn.yuanyuan.model.CommentModel;
+import jp.vn.yuanyuan.service.ICommentService;
+
+public class CommentService implements ICommentService{
+
+	
+	@Inject
+	private ICommentDAO commentDao;
+	@Override
+	public List<CommentModel> finByNewId(Long newId) {
+		
+		return commentDao.findCommentByNewId(newId);
+	}
+
+}
